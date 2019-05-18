@@ -1,73 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
 
-<!-- Komentarz -->
-<!-- Elementy liniowe -->
+    <!-- Komentarz -->
+    <!-- Elementy liniowe -->
     <a href="">Link</a>
     <a href="">Link2</a>
     <a href="">Link3</a>
     <strong>To jest strong</strong>
 
-<!-- Elementy blokowe  -->
-    <p>lorem5</p>  
+    <!-- Elementy blokowe  -->
+    <p>lorem5</p>
     <p>lorem4</p>
 
     <div>Div</div>
 
-<ol>
-    <li>tekst1</li>
-    <li>tekst2</li>
-    <li>tekst3</li>
-    <li>tekst4</li>
-</ol>
-<span>To jest span</span>
+    <ol>
+        <li>tekst1</li>
+        <li>tekst2</li>
+        <li>tekst3</li>
+        <li>tekst4</li>
+    </ol>
+    <span>To jest span</span>
 
 
-<!-- Odnosniki -->
-<a href="https://akademia108.pl">Akademia 108</a>
+    <!-- Odnosniki -->
+    <a href="https://akademia108.pl">Akademia 108</a>
 
-<a href="podstrony/kontakt.html" target="_blank">kontakt</a>
+    <a href="podstrony/kontakt.html" target="_blank">kontakt</a>
 
-<section id="id">To jest sekcja</section>
-<a href="#id">Link do sekcji</a>
+    <section id="id">To jest sekcja</section>
+    <a href="#id">Link do sekcji</a>
 
-<a href="mailto: kursy@akademia108">kursy akademia108</a>
+    <a href="mailto:kursy@akademia108.pl">kursy akademia108</a>
 
 
-<!-- Tabele -->
+    <!-- Tabele -->
 
-<table>
-    <thead>
-        <tr>
-            <th>produkt</th>
-            <th>Ilość</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>kawa</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>herbata</td>
-            <td>6</td>
-        </tr>
-    </tbody>
-    <tfood>
-        <tr>
-            <td>Razem</td>
-            <td>8</td>
-        </tr>
-    </tfood>
-</table>
+    <table>
+        <thead>
+            <tr>
+                <th>produkt</th>
+                <th>Ilość</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>kawa</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>herbata</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+        <tfood>
+            <tr>
+                <td>Razem</td>
+                <td>8</td>
+            </tr>
+        </tfood>
+    </table>
+
+
+
+    <!-- FORMULARZE -->
+
+
+    <form action="" method="POST">
+        <label for="name"> Imię uzytkownika
+
+            <!-- typ tekstowy -->
+            <input type="text" name="name" id="user-name" tabindex="3">
+        </label>
+
+        <br>
+        <br>
+
+        <!-- typ mailowy -->
+        <input type="email" placeholder="Wpisz adres email" disabled>
+
+
+        <br>
+        <br>
+        <label for="quantity">
+
+            <!-- typ numeryczny -->
+            <input type="number" id="quantity" name="quantity" value="2">
+            <br><br>
+
+            <input type="checkbox" id="agreement" required> <label for="agreement">Wyrazam zgode na udział w
+                kursie</label>
+
+        </label>
+        <br><br>
+        <label>
+            <input type="radio" name="gender"> Męczyzna
+
+        </label>
+        <br><br>
+        <input type="radio" name="gender">Kobieta</label>
+
+
+        <br><br>
+        <select name="cities">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+            <option value="Kraków">Kraków</option>
+        </select>
+        <br><br>
+        <textarea name="message" placeholder="Napisz swoją wiadomość"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Wyślij formularz">
+
+        <br><br>
+
+
+
+
+    </form>
+
+
+    <!-- Video -->
+
+    <iframe width="700" height="394" src="https://www.youtube.com/watch?v=3jt6q65PvPU" frameborder="0"
+        #document></iframe>
+
+
+    <video width="320" height="240" controls>
+        <source src="https://www.youtube.com/watch?v=3jt6q65PvPU">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <svg style="height: 200px;">
+        <path d="M30.148 5.588c-2.934-3.42-7.288-5.588-12.148-5.588-8.837 0-16 7.163-16
+                    16s7.163 16 16 16c4.86 0 9.213-2.167 12.148-5.588l-10.148-10.412 10.148-
+                    10.412zM22 3.769c1.232 0 2.231 0.999 2.231 2.231s-0.999 2.231-2.231 2.231-2.231-
+                    0.999-2.231-2.231c0-1.232 0.999-2.231 2.231-2.231z"></path>
+    </svg>
 
 
 </body>
+
 </html>
